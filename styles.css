@@ -1,0 +1,18 @@
+body{
+    background-color: teal;
+    color: tan;
+}
+
+h1{
+    color:white;
+}
+
+.container{
+    width:80%;
+    margin:auto
+}
+
+.box-1{
+    border: 10px red dotted;
+    margin: 20px;
+}
