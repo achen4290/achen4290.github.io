@@ -29,6 +29,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .main-title{
     display: flex;
     flex-direction: column;
@@ -44,12 +46,13 @@ body {
     /* border: solid black 1px; */
 }
 
-h1{
+.main-title h1{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin: 0%;
     text-align: center;
+    color: black;
 }
 
 h2{
@@ -59,7 +62,6 @@ h2{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: white;
 }
 
 .navbar{
@@ -114,17 +116,19 @@ h2{
     margin: 0 auto;
 }
 
-h1{
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: white;
-    margin: 0%;
-    text-align: center;
-}
-
 .faq-question{
     background-color: white;
     border-radius: 15px;
+    height: 30vh;
+    width: 25vw;
+    padding: 12px;
 }
 
+.faq-question h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0%;
+    text-align: left;
+    color: black;
+}
