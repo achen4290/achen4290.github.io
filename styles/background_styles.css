@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.background-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.background-1{
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.background-2{
+    background: #262626;
+    width: 100%;
+    position: relative;
+}
+
+.background-3{
+    background: white;
+    width: 100%;
+    position: relative;
+    color: #262626;
+}
