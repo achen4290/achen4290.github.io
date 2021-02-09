@@ -15,6 +15,11 @@ body {
     flex-direction: column;
 }
 
+.background-flex-hor{
+    display: flex;
+    flex-direction: row;
+}
+
 .background-1{
     background: white;
     width: 100%;
