@@ -10,12 +10,12 @@ body {
     margin: 0 auto;
 }
 
-.background-flex{
+.flex-vert{
     display: flex;
     flex-direction: column;
 }
 
-.background-flex-hor{
+.flex-hor{
     display: flex;
     flex-direction: row;
 }

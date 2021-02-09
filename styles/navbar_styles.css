@@ -62,12 +62,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 60vh;
-    width: 15vw;
+    width: 20vw;
     position: fixed;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-right: 2px solid silver;
 }
 
 .sidenav a {
