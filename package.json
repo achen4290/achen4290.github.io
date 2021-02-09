@@ -20,6 +20,7 @@
   "dependencies": {
     "codyhouse-framework": "^2.8.6",
     "gsap": "^3.6.0",
+    "jquery": "^3.5.1",
     "terser": "^5.5.1"
   }
 }
