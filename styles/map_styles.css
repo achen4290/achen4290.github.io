@@ -5,12 +5,27 @@
     margin-top: 0px;
 }
 
+.map-fonts h2{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 2vh;
+}
+
 .tile{
-    width: 100%;
-    height: 10vh;
-    background-color: white;
-    border: grey 1px solid;
-    border-radius: 20px;
+    width: 32%;
+    height: 40vh;
+    background-color: rgb(240, 240, 240);
+    /* border: gainsboro 1px solid; */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-clip: padding;
+    padding: 5px;
 }
 
 .hvr-grow-shadow {
@@ -25,7 +40,7 @@
     transition-property: box-shadow, transform;
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-    box-shadow: 0px 11px 10px -14px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 7px 10px -5px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
