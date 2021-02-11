@@ -91,6 +91,10 @@
 }
 
 .tile-author-name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: rgb(117, 117, 117);
