@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
+    align-content: space-between;
 }
 
 .background-1{
@@ -47,4 +48,24 @@ body {
     width: 100%;
     position: relative;
     color: #262626;
+}
+
+.flex-hor-tiles a{
+    display: inline-block;
+    width: 31%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.flex-hor-tiles a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.flex-hor-tiles a:visited {
+    color: black;
+}
+
+.flex-hor-tiles a:active {
+    color: black;
 }
