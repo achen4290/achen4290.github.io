@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
+    $(window).on("scroll", function(){
     
         /* Check the location of each desired element */
         $('.scrollfade').each( function(i){
